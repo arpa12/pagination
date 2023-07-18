@@ -1,0 +1,55 @@
+/* App.css */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+  background-color: #e6e6e6;
+}
+
+.pagination {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  color: #333;
+}
+
+.page-link:hover {
+  background-color: #f2f2f2;
+}
+
+.page-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+.disable{
+  opacity: 0.2;
+}
